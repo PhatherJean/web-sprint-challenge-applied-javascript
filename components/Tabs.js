@@ -24,7 +24,7 @@ axios
         topics.forEach((lists) => {
             const list = tabMaker(lists)
             tab.append(list);
-            console.log(list);
+           // console.log(list);
         });
     })
     .catch((err) => {
